@@ -6,6 +6,11 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
+#### Make sure to run JSON Server first. Otherwise API calls will fail.
+```
+json-server --watch db.json
+```
+#### Then, in another window, run serve
 ```
 npm run serve
 ```
