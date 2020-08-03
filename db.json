@@ -1,0 +1,184 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Beach Cleanup",
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "location": "Daytona Beach",
+      "description": "Let's clean up this beach.",
+      "organizer": "Adam Jahr",
+      "category": "sustainability",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Park Cleanup",
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "We're going to clean up this park.",
+      "organizer": "Adam Jahr",
+      "category": "nature",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pet Adoption Day",
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "Help animals find new homes.",
+      "organizer": "Gregg Pollack",
+      "category": "animal welfare",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 8605588,
+      "user": {
+        "id": "abc123",
+        "name": "Ernie Huntley"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Ernie Huntley"
+      },
+      "title": "Hello?",
+      "description": "Testing",
+      "location": "Boston",
+      "date": "2020-08-07T01:50:00.000Z",
+      "time": "20:00",
+      "attendees": ""
+    },
+    {
+      "id": 9705722,
+      "user": {
+        "id": "abc123",
+        "name": "Ernie Huntley"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Ernie Huntley"
+      },
+      "title": "Another test",
+      "description": "Testing again!",
+      "location": "London",
+      "date": "2020-08-20T01:55:00.000Z",
+      "time": "19:00",
+      "attendees": ""
+    },
+    {
+      "id": 43090,
+      "user": {
+        "id": "abc123",
+        "name": "Ernie Huntley"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Ernie Huntley"
+      },
+      "title": "Flight lesson",
+      "description": "Lesson 1: Turns",
+      "location": "AirVentures flight school",
+      "date": "2020-08-12T15:39:00.000Z",
+      "time": "14:00",
+      "attendees": ""
+    },
+    {
+      "id": 8146177,
+      "user": {
+        "id": "abc123",
+        "name": "Ernie Huntley"
+      },
+      "category": "community",
+      "organizer": {
+        "id": "abc123",
+        "name": "Ernie Huntley"
+      },
+      "title": "MAGA Rally",
+      "description": "Four more years!",
+      "location": "Boston",
+      "date": "2020-10-02T15:40:00.000Z",
+      "time": "18:00",
+      "attendees": ""
+    },
+    {
+      "id": 2595706,
+      "user": {
+        "id": "abc123",
+        "name": "Ernie"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Ernie"
+      },
+      "title": "Hangar Days",
+      "description": "Breakfast & Planes!",
+      "location": "Horizon Aviation - Warwick",
+      "date": "2020-09-19T17:03:00.000Z",
+      "time": "10:00",
+      "attendees": ""
+    },
+    {
+      "id": 8368025,
+      "user": {
+        "id": "abc123",
+        "name": "Ernie"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Ernie"
+      },
+      "title": "Lease a Hangar",
+      "description": "Rent a hangar at North Central for the plane",
+      "location": "North Central State Airport",
+      "date": "2020-08-26T17:22:00.000Z",
+      "time": "13:00",
+      "attendees": ""
+    }
+  ]
+}
