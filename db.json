@@ -179,6 +179,24 @@
       "date": "2020-08-26T17:22:00.000Z",
       "time": "13:00",
       "attendees": ""
+    },
+    {
+      "id": 6045975,
+      "user": {
+        "id": "abc123",
+        "name": "Ernie"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Ernie"
+      },
+      "title": "Ground School",
+      "description": "Groud school lesson #1",
+      "location": "AirVentures Flight School",
+      "date": "2020-09-01T16:50:00.000Z",
+      "time": "19:00",
+      "attendees": ""
     }
   ]
 }
