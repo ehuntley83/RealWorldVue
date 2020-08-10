@@ -95,6 +95,19 @@ import NProgress from 'nprogress';
 import { required } from 'vuelidate/lib/validators';
 
 export default {
+  beforeMount() {
+    Datepicker.methods.showCalendar = function() {
+      if (this.disabled || this.isInline) {
+        return false;
+      }
+      if (this.isOpen) {
+        return this.close(true);
+      } else if (!this.isInline) {
+        this.$emit('opened');
+      }
+      this.setInitialView();
+    };
+  },
   data() {
     const times = [];
     for (let i = 1; i <= 24; i++) {
