@@ -44,24 +44,16 @@ export const actions = {
         throw error;
       });
   },
-  fetchEvent({ commit, getters, dispatch }, id) {
+  fetchEvent({ commit, getters }, id) {
     const event = getters.getEventById(id);
     if (event) {
       commit('SET_EVENT', event);
       return event;
     } else {
-      return EventService.getEvent(id)
-        .then(response => {
-          commit('SET_EVENT', response.data);
-          return response.data;
-        })
-        .catch(error => {
-          const notification = {
-            type: 'error',
-            message: `There was a problem fetching the event: ${error.message}`
-          };
-          dispatch('notification/add', notification, { root: true });
-        });
+      return EventService.getEvent(id).then(response => {
+        commit('SET_EVENT', response.data);
+        return response.data;
+      });
     }
   },
   fetchEvents({ commit, dispatch, state }, { page }) {
